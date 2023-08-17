@@ -43,10 +43,10 @@ export default ({
   subheading = "Our Track Record",
   heading = (
     <>
-      We have been doing this <wbr /> since <span tw="text-primary-500">1999.</span>
+      We have been doing this <wbr /> since <span tw="text-primary-500">2000.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Decorative Nest in Hyderabad is one of the leading businesses in the Tent Manufacturers. Also known for Tent Manufacturers, Iron Fabricators, Tent Cloth Manufacturers, Metal Fabricators, Military Tent Manufacturers, Tent Accessory Manufacturers, Ceiling Tent Manufacturers, Maharaja Tent Manufacturers and much more. Find Address, Contact Number, Reviews & Ratings, Photos, Maps of Decorative Nest, Hyderabad.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = StatsIllustrationSrc,
@@ -89,14 +89,14 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <Statistics>
+            {/* <Statistics>
               {statistics.map((statistic, index) => (
                 <Statistic key={index}>
                   <Value>{statistic.value}</Value>
                   <Key>{statistic.key}</Key>
                 </Statistic>
               ))}
-            </Statistics>
+            </Statistics> */}
             <PrimaryButton as="a" href={primaryButtonUrl}>
               {primaryButtonText}
             </PrimaryButton>
