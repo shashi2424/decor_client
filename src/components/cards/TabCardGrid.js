@@ -61,91 +61,488 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   heading = "Checkout the Menu",
   tabs = {
-    Starters: [
+    WeddingSofa: [
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
-        price: "$5.99",
+          "/weddingsofa1.jpeg",
+        title: "weddingsofa1",
+        content: "weddingsofa",
+        price: "₹50",
         rating: "5.0",
         reviews: "87",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
-        price: "$2.99",
+          "/weddingsofa2.jpeg",
+        title: "weddingsofa2",
+        content: "weddingsofa",
+        price: "₹29",
         rating: "4.8",
         reviews: "32",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327??ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Nelli",
-        content: "Hamburger & Fries",
-        price: "$7.99",
+          "/weddingsofa3.jpeg",
+        title: "weddingsofa3",
+        content: "weddingsofa",
+        price: "₹79",
         rating: "4.9",
         reviews: "89",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Jalapeno Poppers",
-        content: "Crispy Soyabeans",
-        price: "$8.99",
+          "/weddingsofa4.jpeg",
+        title: "weddingsofa4",
+        content: "weddingsofa",
+        price: "₹89",
         rating: "4.6",
         reviews: "12",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Cajun Chicken",
-        content: "Roasted Chicken & Egg",
-        price: "$7.99",
+          "/weddingsofa5.jpeg",
+        title: "weddingsofa5",
+        content: "weddingsofa",
+        price: "₹79",
         rating: "4.2",
         reviews: "19",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Chillie Cake",
-        content: "Deepfried Chicken",
-        price: "$2.99",
+          "/weddingsofa6.jpeg",
+        title: "weddingsofa6",
+        content: "weddingsofa",
+        price: "₹29",
         rating: "5.0",
         reviews: "61",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Guacamole Mex",
-        content: "Mexican Chilli",
-        price: "$3.99",
+          "/weddingsofa7.jpeg",
+        title: "weddingsofa7",
+        content: "weddingsofa",
+        price: "₹39",
         rating: "4.2",
         reviews: "95",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Carnet Nachos",
-        content: "Chilli Crispy Nachos",
-        price: "$3.99",
+          "/weddingsofa8.jpeg",
+        title: "weddingsofa8",
+        content: "weddingsofa",
+        price: "₹39",
         rating: "3.9",
         reviews: "26",
         url: "#"
       }
     ],
-    Main: getRandomCards(),
-    Soup: getRandomCards(),
-    Desserts: getRandomCards()
+    Sofa: [
+      {
+        imageSrc:
+          "/sofa1.jpeg",
+        title: "sofa",
+        content: "sofa1",
+        price: "₹59",
+        rating: "5.0",
+        reviews: "87",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/sofa2.jpeg",
+        title: "sofa",
+        content: "sofa2",
+        price: "₹29",
+        rating: "4.8",
+        reviews: "32",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/sofa3.jpeg",
+        title: "sofa",
+        content: "sofa3",
+        price: "₹79",
+        rating: "4.9",
+        reviews: "89",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/sofa4.jpeg",
+        title: "sofa Poppers",
+        content: "sofa4",
+        price: "₹89",
+        rating: "4.6",
+        reviews: "12",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/sofa5.jpeg",
+        title: "sofa",
+        content: "sofa5",
+        price: "₹79",
+        rating: "4.2",
+        reviews: "19",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/sofa6.jpeg",
+        title: "sofa",
+        content: "sofa6",
+        price: "₹29",
+        rating: "5.0",
+        reviews: "61",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/sofa7.jpeg",
+        title: "sofa",
+        content: "sofa7",
+        price: "₹39",
+        rating: "4.2",
+        reviews: "95",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/sofa8.jpeg",
+        title: "sofa",
+        content: "sofa8",
+        price: "₹39",
+        rating: "3.9",
+        reviews: "26",
+        url: "#"
+      }
+    ],
+    Ironfabrications: [
+      {
+        imageSrc:
+          "/fab1.jpeg",
+        title: "ironfabrications",
+        content: "ironfabrications1",
+        price: "₹59",
+        rating: "5.0",
+        reviews: "87",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fab2.jpeg",
+        title: "ironfabrications",
+        content: "ironfabrications2",
+        price: "₹29",
+        rating: "4.8",
+        reviews: "32",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fab3.jpeg",
+        title: "ironfabrications",
+        content: "ironfabrications3",
+        price: "₹79",
+        rating: "4.9",
+        reviews: "89",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fab4.jpeg",
+        title: "ironfabrications",
+        content: "ironfabrications4",
+        price: "₹89",
+        rating: "4.6",
+        reviews: "12",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fab5.jpeg",
+        title: "ironfabrications",
+        content: "ironfabrications5",
+        price: "₹79",
+        rating: "4.2",
+        reviews: "19",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fab6.jpeg",
+        title: "ironfabrications",
+        content: "ironfabrications6",
+        price: "₹29",
+        rating: "5.0",
+        reviews: "61",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fab7.jpeg",
+        title: "ironfabrications",
+        content: "ironfabrications7",
+        price: "₹39",
+        rating: "4.2",
+        reviews: "95",
+        url: "#"
+      }
+    ],
+    Ceiling: [
+      {
+        imageSrc:
+          "/ceiling1.jpeg",
+        title: "ceiling",
+        content: "ceiling1",
+        price: "₹59",
+        rating: "5.0",
+        reviews: "87",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/ceiling2.jpeg",
+        title: "ceiling",
+        content: "ceiling2",
+        price: "₹29",
+        rating: "4.8",
+        reviews: "32",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/ceiling3.jpeg",
+        title: "ceiling",
+        content: "ceiling3",
+        price: "₹79",
+        rating: "4.9",
+        reviews: "89",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/ceiling4.jpeg",
+        title: "ceiling",
+        content: "ceiling4",
+        price: "₹89",
+        rating: "4.6",
+        reviews: "12",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/ceiling5.jpeg",
+        title: "ceiling",
+        content: "ceiling5",
+        price: "₹79",
+        rating: "4.2",
+        reviews: "19",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/ceiling6.jpeg",
+        title: "ceiling",
+        content: "ceiling6",
+        price: "₹29",
+        rating: "5.0",
+        reviews: "61",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/ceiling7.jpeg",
+        title: "ceiling",
+        content: "ceiling7",
+        price: "₹39",
+        rating: "4.2",
+        reviews: "95",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/ceiling8.jpeg",
+        title: "ceiling",
+        content: "ceiling8",
+        price: "₹39",
+        rating: "3.9",
+        reviews: "26",
+        url: "#"
+      }
+    ],
+    Fibre: [
+      {
+        imageSrc:
+          "/fibre1.jpeg",
+        title: "fibre",
+        content: "fibre1",
+        price: "₹59",
+        rating: "5.0",
+        reviews: "87",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fibre2.jpeg",
+        title: "fibre",
+        content: "fibre2",
+        price: "₹29",
+        rating: "4.8",
+        reviews: "32",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fibre3.jpeg",
+        title: "fibre",
+        content: "fibre3",
+        price: "₹79",
+        rating: "4.9",
+        reviews: "89",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fibre4.jpeg",
+        title: "fibre",
+        content: "fibre4",
+        price: "₹89",
+        rating: "4.6",
+        reviews: "12",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fibre5.jpeg",
+        title: "fibre",
+        content: "fibre5",
+        price: "₹79",
+        rating: "4.2",
+        reviews: "19",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fibre6.jpeg",
+        title: "fibre",
+        content: "fibre6",
+        price: "₹29",
+        rating: "5.0",
+        reviews: "61",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fibre7.jpeg",
+        title: "fibre",
+        content: "fibre7",
+        price: "₹39",
+        rating: "4.2",
+        reviews: "95",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/fibre8.jpeg",
+        title: "fibre",
+        content: "fibre8",
+        price: "₹39",
+        rating: "3.9",
+        reviews: "26",
+        url: "#"
+      }
+    ],
+    Fibrepiller: [
+      {
+        imageSrc:
+          "/piller1.jpeg",
+        title: "fibrepiller",
+        content: "fibrepiller1",
+        price: "₹59",
+        rating: "5.0",
+        reviews: "87",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/piller2.jpeg",
+        title: "fibrepiller",
+        content: "fibrepiller2",
+        price: "₹29",
+        rating: "4.8",
+        reviews: "32",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/piller3.jpeg",
+        title: "fibrepiller",
+        content: "fibrepiller3",
+        price: "₹79",
+        rating: "4.9",
+        reviews: "89",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/piller4.jpeg",
+        title: "fibrepiller",
+        content: "fibrepiller4",
+        price: "₹89",
+        rating: "4.6",
+        reviews: "12",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/piller5.jpeg",
+        title: "fibrepiller",
+        content: "fibrepiller5",
+        price: "₹79",
+        rating: "4.2",
+        reviews: "19",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/piller6.jpeg",
+        title: "fibrepiller",
+        content: "fibrepiller6",
+        price: "₹29",
+        rating: "5.0",
+        reviews: "61",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/piller7.jpeg",
+        title: "fibrepiller",
+        content: "fibrepiller7",
+        price: "₹39",
+        rating: "4.2",
+        reviews: "95",
+        url: "#"
+      },
+      {
+        imageSrc:
+          "/piller8.jpeg",
+        title: "fibrepiller",
+        content: "fibrepiller8",
+        price: "₹39",
+        rating: "3.9",
+        reviews: "26",
+        url: "#"
+      }
+    ]
   }
 }) => {
   /*
@@ -176,12 +573,12 @@ export default ({
             variants={{
               current: {
                 opacity: 1,
-                scale:1,
+                scale: 1,
                 display: "flex",
               },
               hidden: {
                 opacity: 0,
-                scale:0.8,
+                scale: 0.8,
                 display: "none",
               }
             }}
